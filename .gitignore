@@ -1,0 +1,13 @@
+*.pdf
+*.nav
+*.log
+*.toc
+*.vrb
+*.run.xml
+*.snm
+_minted*
+*-blx.bib
+*.aux
+*.out
+*.bbl
+*.blg
