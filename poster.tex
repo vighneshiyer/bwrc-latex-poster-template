@@ -38,6 +38,8 @@
 \usepackage[noend]{algpseudocode}
 \usepackage{float}
 
+\usepackage{kantlipsum}
+
 \setbeamertemplate{itemize item}{\large \textbf{-}}
 \setbeamertemplate{itemize subitem}{\color{bwrcdarkgrey}\large \textbf{-}}
 
@@ -128,6 +130,10 @@
     \vspace{0.5cm}
 
     Plain text can go anywhere
+
+    \begin{itemize}
+      \item \kant[1]
+    \end{itemize}
   \end{textblock}
 
   \begin{textblock}{32}(34,19)
@@ -143,6 +149,14 @@
         p <- peek(dut.deq.valid)
     } yield p.litValue == 1
     \end{minted}
+
+    \vspace{0.5cm}
+    \centering {\color{bwrcblue}{\large \textbf{Some More Kant}}}
+    \vspace{0.5cm}
+
+    \begin{itemize}
+      \item \kant[2]
+    \end{itemize}
   \end{textblock}
 
   \begin{textblock}{31}(67,19)
@@ -170,12 +184,19 @@
     \end{center}
 
     \vspace{0.5cm}
+    \centering {\color{bwrcblue}{\large \textbf{Even More}}}
+    \vspace{0.5cm}
+
+    \begin{itemize}
+      \item {\small \kant[4]}
+    \end{itemize}
+
+    \vspace{0.5cm}
     \centering {\color{bwrcblue}{\large \textbf{Conclusion}}}
     \vspace{0.5cm}
 
     \begin{itemize}
       \setlength\itemsep{0.5em}
-      \item Thing
       \item Repo: {\small \url{github.com/username/repo}}
     \end{itemize}
 
